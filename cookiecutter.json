@@ -1,0 +1,9 @@
+{
+    "prefix": "example",
+    "org_id": "123456789012",
+    "billing_id": "0123AB-0123AB-0123AB",
+    "domain": "example.com",
+    "region": "us-central1",
+    "zone": "us-central1-f",
+    "location": "US"
+}
