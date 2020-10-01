@@ -13,5 +13,6 @@
 # limitations under the License.
 
 terraform {
+  # TODO: Allow for upgrade/option
   required_version = ">= 0.12"
 }

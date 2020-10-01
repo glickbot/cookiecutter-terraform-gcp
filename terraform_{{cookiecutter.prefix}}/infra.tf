@@ -14,7 +14,6 @@
 
 module "gcs_buckets" {
   source     = "terraform-google-modules/cloud-storage/google"
-  version    = "~> 1.5"
   project_id = module.project-tools.project_id
   names      = ["toolstf", "sakeys"]
   prefix     = var.prefix
@@ -32,7 +31,6 @@ module "gcs_buckets" {
 
 module "project-tools" {
   source                      = "terraform-google-modules/project-factory/google"
-  version                     = "~> 8.0"
   name                        = "${var.prefix}-tools"
   random_project_id           = true
   org_id                      = var.org_id

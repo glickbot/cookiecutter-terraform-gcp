@@ -14,7 +14,6 @@
 
 module "service_account" {
   source             = "terraform-google-modules/service-accounts/google"
-  version            = "~> 2.0"
   project_id         = module.project-tools.project_id
   prefix             = var.prefix
   names              = ["tools-tf-executor"]
